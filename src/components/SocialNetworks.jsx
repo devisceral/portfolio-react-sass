@@ -1,6 +1,6 @@
 import '../styles/components/socialnetworks.sass';
 
-import {FaLinkedinIn, FaGithub, FaRocket} from 'react-icons/fa'
+import {FaLinkedinIn, FaGithub} from 'react-icons/fa'
 
 import "../styles/components/sidebar.sass"
 
