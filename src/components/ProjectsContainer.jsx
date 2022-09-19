@@ -1,5 +1,3 @@
-import React from 'react'
-
 const ProjectsContainer = () => {
   return (
     <section className="projects-container">
