@@ -3,10 +3,7 @@ const AboutContainer = () => {
     <section className="about-container">
       <h2>Sobre</h2>
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint fuga impedit, cumque necessitatibus, iure harum ea culpa, ullam debitis consequuntur rerum. Eaque beatae enim nisi esse debitis eveniet, dicta id.
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint fuga impedit, cumque necessitatibus, iure harum ea culpa, ullam debitis consequuntur rerum. Eaque beatae enim nisi esse debitis eveniet, dicta id.
+        Desenvolvedor motivado, com mais de 1 ano de experiência em desenvolvimento Full-stack, fazendo melhorias de código e correções, utilizando as tecnologias Html, Css, Bootstrap, Javascript, Java. Utilização de frameworks como Spring Boot, Spring MVC, Spring DataJPA e fazendo uso de banco de dados PostgreSQL e MySQL. Sou um dev detalhista, proativo e autodidata que gosta de desafios.
       </p>
     </section>
   )
