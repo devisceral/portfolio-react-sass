@@ -1,6 +1,6 @@
 {
   "name": "react_sass",
-  "homepage": "./",
+  "homepage": "../react_sass/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
