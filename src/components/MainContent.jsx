@@ -9,6 +9,7 @@ const MainContent = () => {
       <AboutContainer />
       <TechnologiesContainer />
       <ProjectsContainer />
+      {/* <Courses /> */}
     </main>
   )
 }

@@ -4,45 +4,34 @@ import {
   DiJsBadge,
   DiNodejsSmall,
   DiMysql,
-  DiReact
+  DiReact,
+  DiJava,
+  DiMongodb,
+  DiBootstrap,
+  DiPostgresql,
+  DiJqueryLogo
 } from 'react-icons/di';
 
 import '../styles/components/technologiescontainer.sass';
 
-// const technologies = [
-//   { id: "html", name: "HTML5", icon: <DiHtml5 />},
-//   { id: "css", name: "CSS3", icon: <DiCss3 />},
-//   { id: "js", name: "JavaScript", icon: <DiJsBadge />},
-//   { id: "node", name: "Node.js", icon: <DiNodejsSmall />},
-//   { id: "mysql", name: "MySQL", icon: <DiMysql />},
-//   { id: "react", name: "React", icon: <DiReact />},
-// ]
-
 const technologies = [
   { id: "html", name: "HTML5", icon: <DiHtml5 />},
   { id: "css", name: "CSS3", icon: <DiCss3 />},
+  { id: "bootstrap", name: "Bootstrap", icon: <DiBootstrap />},
   { id: "js", name: "JavaScript", icon: <DiJsBadge />},
-  { id: "node", name: "Node.js", icon: <DiNodejsSmall />},
-  { id: "mysql", name: "MySQL", icon: <DiMysql />},
+  { id: "jquery", name: "Jquery", icon: <DiJqueryLogo />},
   { id: "react", name: "React", icon: <DiReact />},
+  { id: "node", name: "Node.js", icon: <DiNodejsSmall />},
+  { id: "java", name: "Java", icon: <DiJava />},
+  { id: "mongodb", name: "MongoDb", icon: <DiMongodb />},
+  { id: "postgresql", name: "PostgreSQL", icon: <DiPostgresql />},
+  { id: "mysql", name: "MySQL", icon: <DiMysql />},
 ]
-
-// function requisition() {
-//   fetch('https://api.github.com/users/devisceral')
-//   .then(response => response.json())
-//   .then(data => {
-//     const bio = data.bio.toLowerCase().replaceAll(" ", "").split(',')
-//     bio.map((index)=> {
-//       var techCard = `"https://xesque.rocketseat.dev/platform/tech/${index}.svg"`;
-//     })
-//   })
-//   .catch( error => console.error(error));
-// }
-
 
 const TechnologiesContainer = () => {
 
   return (
+    
     <section className="technologies-container">
       <h2>Tecnologias</h2>
       <div className="technologies-grid">
