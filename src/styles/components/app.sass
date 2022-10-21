@@ -4,8 +4,8 @@
 #portfolio
   display: flex
   flex-wrap: wrap
-  padding: 3rem
-  gap: 3rem
+  padding: 1rem
+  gap: 1rem
   width: 80%
   max-width: 1100px
   margin: 0 auto
@@ -32,12 +32,52 @@
       margin-bottom: -1rem
       font-size: 4rem
 
-  @media (max-width: 500px)
+    .technologies-grid
+      display: block
+
+    .technology-card
+      display: inline-block
+      width: 20%
+      margin: 0 auto
+      margin: 0
+      padding: 0
+      border: none
+      svg
+        width: 100%
+  
+      h3
+        text-align: center
+
+    .technology-info
+      display: none
+
+    
+
+  @media (max-width: 550px)
     padding: 1rem
     h1
       text-align: center
       margin-bottom: -1rem
       font-size: 4rem
+
+    .technologies-grid
+      display: block
+
+    .technology-card
+      display: inline-block
+      width: 20%
+      margin: 0 auto
+      margin: 0
+      padding: 0
+      border: none
+      svg
+        width: 100%
+  
+      h3
+        text-align: center
+
+    .technology-info
+      display: none
 
   @media (max-width: 450px)
     #sidebar

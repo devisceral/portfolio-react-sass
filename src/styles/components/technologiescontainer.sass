@@ -3,68 +3,81 @@
 
 .technologies-container
   margin-bottom: 1rem
+  padding: 1rem auto
 
   .technologies-grid
     display: flex
     flex-wrap: wrap
     gap: 1.5rem
+    width: 100%
+    margin: 1rem auto
+    
+  .technology-card
+    @include mixins.center
+    flex-wrap: wrap
+    display: inline-block
+    gap: 1rem
+    padding: 0 .3rem
+    margin: .2rem auto
+    border-radius: variables.$card-border-radius
+    text-align: center
 
-    .technology-card
-      @include mixins.center
-      flex-wrap: wrap
-      gap: 1rem
-      padding: 1rem
-      border: 1px solid #333
-      width: 45%
-      border-radius: variables.$card-border-radius
+    img
+      transition: all 0.2s ease 0s
 
-      h3
-        color: variables.$text-color
-        margin-bottom: 1rem
-      
-      svg
-        font-size: 6rem
-        width: 100%
+    :hover
+      transform: translateY(-7px)
 
-    #html
-      svg
-        color: #E44D26
+    h3
+      color: variables.$text-color
+      margin-bottom: 1rem
 
-    #css
-      svg
-        color: #1572b6
+    
+    
+  
+  // svg
+  //   font-size: 6rem
+  //   width: 100%
 
-    #js
-      svg
-        color: #f0db4f
+    // #html
+    //   svg
+    //     color: #E44D26
 
-    #node
-      svg
-        color: #83cd29
+    // #css
+    //   svg
+    //     color: #1572b6
 
-    #mysql
-      svg
-        color: #00618a
+    // #js
+    //   svg
+    //     color: #f0db4f
 
-    #react
-      svg
-        color: #61dafb
+    // #node
+    //   svg
+    //     color: #83cd29
 
-    #mongodb
-      svg
-        color: #4cac44
+    // #mysql
+    //   svg
+    //     color: #00618a
 
-    #bootstrap
-      svg
-        color:#533b7b
+    // #react
+    //   svg
+    //     color: #61dafb
 
-    #jquery
-      svg
-        color:#146cac
+    // #mongodb
+    //   svg
+    //     color: #4cac44
 
-    #java
-      svg
-        color:#e23538
-    #postgresql
-      svg
-       color:#356392
+    // #bootstrap
+    //   svg
+    //     color:#533b7b
+
+    // #jquery
+    //   svg
+    //     color:#146cac
+
+    // #java
+    //   svg
+    //     color:#e23538
+    // #postgresql
+    //   svg
+    //    color:#356392
